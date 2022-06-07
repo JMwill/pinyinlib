@@ -1,0 +1,39 @@
+{
+  "name": "pinyinlib",
+  "version": "0.0.1",
+  "description": "ES version of pinyinlib.el; Source: https://github.com/cute-jumper/pinyinlib.el",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.module.js"
+  },
+  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "prebuild": "vitest --run",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMwill/pinyinlib.git"
+  },
+  "keywords": [
+    "pinyin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMwill/pinyinlib/issues"
+  },
+  "homepage": "https://github.com/JMwill/pinyinlib#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "vitest": "^0.14.1"
+  }
+}
