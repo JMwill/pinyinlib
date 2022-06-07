@@ -1,4 +1,4 @@
-# pinyinlib.el
+# pinyinlib
 
 Library for converting first letter of Pinyin to Simplified/Traditional Chinese
 characters.

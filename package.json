@@ -1,6 +1,6 @@
 {
   "name": "pinyinlib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ES version of pinyinlib.el; Source: https://github.com/cute-jumper/pinyinlib.el",
   "type": "module",
   "source": "src/index.ts",
